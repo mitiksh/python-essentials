@@ -7,7 +7,7 @@ if __name__ == "__main__":
         for i in range(length):
             total = total + pow(number_list[i],length)
         if total == number:
-            print(total)
+            print("the first armstrong number is " + str(total))
             break
         else:
             number = number + 1
